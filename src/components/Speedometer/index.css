@@ -1,0 +1,68 @@
+/* Write your CSS here */
+
+.bg-cont {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.speed-head {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+  color: #ffffff;
+}
+.speedometer-img {
+  height: 360px;
+  width: 800px;
+}
+.speed-text {
+  font-family: Roboto;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 28px;
+}
+.speed-instruction {
+  font-family: Roboto;
+  color: #94a3b8;
+  font-size: 14px;
+}
+.btn {
+  height: 32px;
+  width: 120px;
+  border-style: solid;
+  cursor: pointer;
+  outline: none;
+  font-family: Roboto;
+  font-size: 16px;
+  border-radius: 4px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.ac-btn {
+  background-color: #0b69ff;
+  border-width: 0px;
+}
+.br-btn {
+  background-color: #07080c;
+  border-width: 1px;
+  border-color: #ffffff;
+}
+
+@media (max-width: 992px) {
+  .bg-cont {
+    flex-shrink: 1;
+  }
+  .btn-cont {
+    flex-shrink: 1;
+  }
+  .speedometer-img {
+    flex-shrink: 1;
+    height: 240px;
+    width: 240px;
+  }
+}
